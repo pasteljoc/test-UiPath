@@ -3,10 +3,13 @@
   "description": "Proceso en blanco",
   "main": "Main.xaml",
   "dependencies": {
+    "Microsoft.AspNet.WebHooks.Receivers.Zendesk": "[1.2.2]",
     "UiPath.Excel.Activities": "[2.9.0-preview]",
     "UiPath.Mail.Activities": "[1.9.0-preview]",
+    "UiPath.PDF.Activities": "[3.2.2]",
     "UiPath.System.Activities": "[20.6.1-preview]",
-    "UiPath.UIAutomation.Activities": "[20.6.0-preview]"
+    "UiPath.UIAutomation.Activities": "[20.6.0-preview]",
+    "ZendeskApi_v2": "[3.10.9]"
   },
   "webServices": [],
   "entitiesStores": [],
